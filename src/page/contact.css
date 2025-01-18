@@ -1,0 +1,14 @@
+.contact-container {
+    padding-inline: 30em;
+}
+
+.ctc {
+    display: flexbox;
+    background-color: #444;
+    padding: 0.8em 1.5em;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}

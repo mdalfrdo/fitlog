@@ -1,0 +1,37 @@
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to right, #787971, #e6fc25);
+  height: 100vh;
+  /* display: flex; */
+  justify-content: center;
+  align-items: center;
+}
+
+table {
+  margin-left: 37em;
+}
+
+.start-training-button {
+  display: inline-block; /* Agar tombol mengikuti ukuran konten */
+  margin-top: 20px; /* Memberi jarak atas */
+  text-align: center; /* Teks berada di tengah */
+  padding-left: 14em;
+
+}
+
+.start-training-button button {
+  background-color: #2575fc; /* Warna latar belakang (biru) */
+  color: white; /* Warna teks */
+  padding: 10px 20px; /* Padding untuk ukuran tombol */
+  font-size: 16px; /* Ukuran teks */
+  border: none; /* Menghilangkan border default */
+  border-radius: 5px; /* Membuat sudut tombol melengkung */
+  cursor: pointer; /* Menambahkan ikon pointer saat hover */
+  transition: background-color 0.3s ease, transform 0.2s ease; /* Animasi transisi */
+}
+
+.start-training-button button:hover {
+  background-color: #e6fc25; /* Warna saat hover (lebih gelap) */
+  transform: scale(1.05); /* Sedikit memperbesar tombol */
+  color: black;
+}

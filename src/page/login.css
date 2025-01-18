@@ -1,0 +1,88 @@
+/* Login */
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    
+  }
+  
+  
+  /* Container untuk form login */
+  .login-container {
+    width: 100%;
+    max-width: 400px;
+    background-color: #fff;
+    padding: 30px 40px;
+    margin-left: 30em;
+    margin-top: 8em;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    display: flexbox;
+    justify-content: center;
+    align-items: center;
+        
+    
+  }
+  
+  /* Judul form */
+
+  .login-form h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #444;
+  }
+  
+  /* Label input */
+  .login-form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 8px;
+    text-align: left;
+  }
+  
+  /* Input field styling */
+  .login-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  
+  /* Tombol login */
+  .login-form button {
+    background-color: #e6fc25;
+    color: #000;
+    border: none;
+    padding: 12px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s;
+  }
+  
+  .login-form button:hover {
+    background-color: #2575fc;
+    
+  }
+  
+  /* Link ke halaman register */
+  .login-form p {
+    font-size: 14px;
+  }
+  
+  .login-form a {
+    color: #1100ff;
+    text-decoration: none;
+    font-weight: lighter;
+  }
+  
+  .login-form a:hover {
+    text-decoration: underline;
+  }
+  

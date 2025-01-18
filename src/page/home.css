@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .program-card {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #787971, #e6fc25);
+    height: 100vh;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
